@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+<img src="Imagenes/Logo de la Mariano Gálvez.png" alt="Logo UMG" style="position: absolute; top: 10px; left: 10px; height: 110px;">
+
+    <h1>Contacto</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="vision-mision.html">Visión y Misión</a>
+      <a href="temas.html">Temas</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Formulario de Contacto</h2>
+
+<form action="https://formsubmit.co/vinicio.nex1@gmail.com" method="POST">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="correo">Correo:</label><br>
+  <input type="email" id="correo" name="correo" required><br><br>
+
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+  <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="submit" value="Enviar">
+</form>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 - Universidad Mariano Gálvez</p>
+  </footer>
+</body>
+</html>

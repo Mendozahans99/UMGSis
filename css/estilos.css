@@ -1,0 +1,80 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  animation: slideUp 1s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* Estilos personalizados agregados */
+body {
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: red;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+a {
+    color: blue;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Temas del Curso</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    /* Estilos adicionales específicos para esta página */
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #eaeaea;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+<img src="Imagenes/Logo de la Mariano Gálvez.png" alt="Logo UMG" style="position: absolute; top: 10px; left: 10px; height: 110px;">
+
+    <h1>Proyecto Final del Curso</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="vision-mision.html">Visión y Misión</a>
+      <a href="temas.html">Temas</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Temas del Curso</h2>
+    
+    <!-- Sección de Redes -->
+    <section class="section">
+      <h3>1. Tipos de Red</h3>
+      
+      <h4>Símbolos comunes en redes</h4>
+      <div class="grid">
+        <div class="card">
+          <h5>Dispositivos de red</h5>
+          <ul>
+            <li>Router</li>
+            <li>Switch LAN</li>
+            <li>Hub LAN</li>
+            <li>Firewall</li>
+            <li>Punto de acceso inalámbrico</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h5>Medios de conexión</h5>
+          <ul>
+            <li>Medios WAN</li>
+            <li>Medios LAN</li>
+            <li>Medios inalámbricos</li>
+          </ul>
+        </div>
+      </div>
+
+      <h4>Cable cruzado</h4>
+      <p>Un cable cruzado de Ethernet permite conexiones directas entre dispositivos similares (ej. PC a PC) mediante una distribución específica de los hilos (568A/568B).</p>
+
+      <h4>Elementos para conexión segura</h4>
+      <ul>
+        <li><strong>Conectores RJ-45:</strong> Estándar para cables de red con colores en orden específico</li>
+        <li><strong>Hub:</strong> Repetidor que recibe y retransmite tramas de Ethernet</li>
+        <li><strong>Switch:</strong> Interconecta segmentos de red a mayor velocidad con procesamiento de información</li>
+        <li><strong>Comunicación full duplex:</strong> Bidireccional simultánea</li>
+      </ul>
+
+      <h4>Tipos de redes</h4>
+      <table>
+        <tr>
+          <th>Tipo</th>
+          <th>Descripción</th>
+          <th>Ejemplo</th>
+        </tr>
+        <tr>
+          <td>LAN</td>
+          <td>Red de área local (geografía pequeña)</td>
+          <td>Red doméstica o de oficina</td>
+        </tr>
+        <tr>
+          <td>WAN</td>
+          <td>Red de área extensa (geografía amplia)</td>
+          <td>Internet, redes corporativas</td>
+        </tr>
+        <tr>
+          <td>WLAN</td>
+          <td>LAN inalámbrica</td>
+          <td>WiFi</td>
+        </tr>
+        <tr>
+          <td>MAN</td>
+          <td>Red de área metropolitana</td>
+          <td>Red de una ciudad</td>
+        </tr>
+        <tr>
+          <td>SAN</td>
+          <td>Red de área de almacenamiento</td>
+          <td>Almacenamiento en red para servidores</td>
+        </tr>
+        <tr>
+          <td>PAN</td>
+          <td>Red de área personal (hasta 10m)</td>
+          <td>Conexión Bluetooth</td>
+        </tr>
+      </table>
+	<div><img src="Imagenes/Tipos de redes Tema.jpg" alt="TRT" style="width:35%; height:auto;"></div>
+
+      <h4>Topologías de red</h4>
+      <ul>
+        <li><strong>Punto a punto:</strong> Conexión directa entre dos nodos</li>
+        <li><strong>Bus:</strong> Todos los nodos conectados a un cable principal</li>
+        <li><strong>Estrella:</strong> Dispositivo central conectado a otros</li>
+        <li><strong>Anillo:</strong> Nodos conectados circularmente</li>
+        <li><strong>Malla completa:</strong> Todos los dispositivos conectados entre sí</li>
+        <li><strong>Malla parcial:</strong> Algunas conexiones directas entre dispositivos</li>
+        <li><strong>Híbrido:</strong> Combinación de topologías</li>
+      </ul>
+
+      <h4>Seguridad en redes</h4>
+      <p>Principales amenazas:</p>
+      <ol>
+        <li>Robo de información</li>
+        <li>Robo de identidad</li>
+        <li>Pérdida o manipulación de datos</li>
+        <li>Interrupción del servicio</li>
+      </ol>
+      <p>Medidas de seguridad física:</p>
+      <ul>
+        <li>Control de acceso físico a equipos</li>
+        <li>Protección contra amenazas ambientales (temperatura, humedad)</li>
+        <li>Protección eléctrica (picos de voltaje)</li>
+        <li>Mantenimiento adecuado</li>
+      </ul>
+    </section>
+
+    <!-- Sección de Sistemas Operativos -->
+    <section class="section">
+      <h3>2. Sistema Operativo</h3>
+      
+      <h4>Definición y funciones</h4>
+      <p>Un sistema operativo (SO) es el programa que gestiona los procesos básicos de un sistema informático y permite la ejecución de otras operaciones. Funciones principales:</p>
+      <ul>
+        <li>Planificación de procesos</li>
+        <li>Gestión de dispositivos</li>
+        <li>Seguridad</li>
+        <li>Control de procesos</li>
+        <li>Gestión de memoria</li>
+        <li>Gestión de archivos</li>
+      </ul>
+
+      <h4>Componentes principales</h4>
+      <table>
+        <tr>
+          <th>Componente</th>
+          <th>Función</th>
+        </tr>
+        <tr>
+          <td>Gestión de procesos</td>
+          <td>Administra la interacción de procesos con recursos</td>
+        </tr>
+        <tr>
+          <td>Gestión de memoria</td>
+          <td>Controla uso de memoria principal</td>
+        </tr>
+        <tr>
+          <td>Sistema de archivos</td>
+          <td>Gestiona archivos y directorios (FAT32, NTFS, etc.)</td>
+        </tr>
+        <tr>
+          <td>Sistema de protección</td>
+          <td>Brinda niveles de seguridad</td>
+        </tr>
+        <tr>
+          <td>Controladores</td>
+          <td>Programas que permiten comunicación con hardware</td>
+        </tr>
+      </table>
+
+      <h4>Características clave</h4>
+      <ul>
+        <li><strong>Multiusuario:</strong> Soporta múltiples usuarios</li>
+        <li><strong>Multitarea:</strong> Ejecuta múltiples programas simultáneamente</li>
+        <li><strong>Plug and Play:</strong> Detección automática de hardware</li>
+      </ul>
+
+      <h4>Tipos de sistemas operativos</h4>
+      <div class="grid">
+        <div class="card">
+          <h5>Windows</h5>
+          <p>Creado por Microsoft, popular en entornos domésticos y empresariales.</p>
+        </div>
+        <div class="card">
+          <h5>Linux</h5>
+          <p>Sistema de código abierto, basado en Unix, altamente personalizable.</p>
+        </div>
+        <div class="card">
+          <h5>macOS</h5>
+          <p>Sistema de Apple, basado en Unix, conocido por su interfaz gráfica.</p>
+        </div>
+      </div>
+	<div><img src="Imagenes/Sistemas operativos Tema.jpg" alt="SOT" style="width:40%; height:auto;"></div>
+      <h4>Interfaces de usuario</h4>
+      <ul>
+        <li><strong>GUI (Graphical User Interface):</strong> Interfaz gráfica con ventanas, iconos</li>
+        <li><strong>CLI (Command Line Interface):</strong> Interfaz de línea de comandos</li>
+      </ul>
+
+      <h4>Software Libre vs. Comercial</h4>
+      <table>
+        <tr>
+          <th>Aspecto</th>
+          <th>Software Libre</th>
+          <th>Software Comercial</th>
+        </tr>
+        <tr>
+          <td>Costo</td>
+          <td>Sin costo de licencia</td>
+          <td>Requiere pago de licencia</td>
+        </tr>
+        <tr>
+          <td>Distribución</td>
+          <td>Puede redistribuirse libremente</td>
+          <td>No se puede redistribuir</td>
+        </tr>
+        <tr>
+          <td>Seguridad</td>
+          <td>Menos vulnerable a virus</td>
+          <td>Más propenso a virus</td>
+        </tr>
+        <tr>
+          <td>Actualizaciones</td>
+          <td>Comunidad global contribuye</td>
+          <td>Solo el desarrollador oficial</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Sección de Hardware y Software -->
+    <section class="section">
+      <h3>3. Hardware y Software</h3>
+      
+      <h4>Modelo de von Neumann</h4>
+      <p>Arquitectura básica de computadoras con 5 componentes:</p>
+      <ol>
+        <li>Unidad de entrada</li>
+        <li>Unidad de salida</li>
+        <li>Unidad de memoria</li>
+        <li>Unidad de control</li>
+        <li>Unidad aritmética y lógica</li>
+      </ol>
+      <p>Características: uso de sistema binario, programas almacenados en memoria, ejecución secuencial.</p>
+
+      <h4>Componentes del CPU</h4>
+      <ul>
+        <li><strong>Unidad de Control:</strong> Decodifica instrucciones</li>
+        <li><strong>ALU:</strong> Realiza operaciones aritméticas y lógicas</li>
+        <li><strong>Registros:</strong> Almacenan datos temporales</li>
+        <li><strong>Contador de programa:</strong> Sigue la secuencia de ejecución</li>
+      </ul>
+
+      <h4>Unidades de medida</h4>
+      <table>
+        <tr>
+          <th>Unidad</th>
+          <th>Símbolo</th>
+          <th>Equivalencia</th>
+        </tr>
+        <tr>
+          <td>Kilobyte</td>
+          <td>KB</td>
+          <td>1024 bytes</td>
+        </tr>
+        <tr>
+          <td>Megabyte</td>
+          <td>MB</td>
+          <td>1024 KB</td>
+        </tr>
+        <tr>
+          <td>Gigabyte</td>
+          <td>GB</td>
+          <td>1024 MB</td>
+        </tr>
+        <tr>
+          <td>Terabyte</td>
+          <td>TB</td>
+          <td>1024 GB</td>
+        </tr>
+      </table>
+
+      <h4>Periféricos</h4>
+      <div class="grid">
+        <div class="card">
+          <h5>Entrada</h5>
+          <ul>
+            <li>Teclado</li>
+            <li>Ratón</li>
+            <li>Escáner</li>
+            <li>Webcam</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h5>Salida</h5>
+          <ul>
+            <li>Monitor</li>
+            <li>Impresora</li>
+            <li>Altavoces</li>
+            <li>Proyectores</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h5>Almacenamiento</h5>
+          <ul>
+            <li>HDD (Disco duro)</li>
+            <li>SSD (Unidad de estado sólido)</li>
+            <li>Memoria flash</li>
+          </ul>
+        </div>
+      </div>
+
+      <h4>Tarjetas de expansión y puertos</h4>
+      <ul>
+        <li><strong>Tarjetas:</strong> Vídeo, red, sonido (conectan en ranuras PCI, AGP, PCI Express)</li>
+        <li><strong>Puertos:</strong> USB (A, C), HDMI, VGA, DVI, RJ-45 (red), audio</li>
+      </ul>
+
+      <h4>Tipos de software</h4>
+      <ol>
+        <li><strong>Sistemas Operativos:</strong> Controlan hardware y recursos</li>
+        <li><strong>Software de aplicación:</strong> Programas para tareas específicas</li>
+        <li><strong>Software de desarrollo:</strong> Herramientas para crear software</li>
+      </ol>
+
+      <h4>Funciones del sistema operativo</h4>
+      <ul>
+        <li>Administración del procesador</li>
+        <li>Gestión de memoria</li>
+        <li>Control de periféricos</li>
+        <li>Administración de archivos</li>
+        <li>Control de accesos</li>
+        <li>Operación en red</li>
+	<div><img src="Imagenes/Software y Hardware Tema.png" alt="SHT" style="width:40%; height:auto;"></div>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Proyecto Final de Curso</p>
+  </footer>
+</body>
+</html>
